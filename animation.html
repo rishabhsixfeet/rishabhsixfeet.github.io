@@ -1,0 +1,35 @@
+<html>
+<script type="javascript">
+body {
+  background: blue;
+}
+
+div {
+  top:0; right:0; bottom:0; left:0; 
+  margin:auto;
+  position:absolute;
+  border-radius:50%;
+  border:2px solid cyan; 
+  width: 130px;
+  height: 130px;
+  -webkit-animation: outer 0.1s;
+  -o-animation: outer 0.1s;
+  animation: outer 0.1s;
+    -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes outer {
+  to {transform: 
+      rotateX(360deg) 
+      rotateZ(360deg)
+      skew(20deg,60deg);
+  }
+}
+</script>
