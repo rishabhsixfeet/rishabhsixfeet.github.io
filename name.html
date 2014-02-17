@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
+{
+top:0; right:0; bottom:0; left:0; 
+  margin:auto;
+  position:absolute;
+  border-radius:50%;
+  border:2px solid cyan; 
+  width: 130px;
+  height: 130px;
+animation:mymove 5s infinite;
+-webkit-animation:mymove 5s infinite; /* Safari and Chrome */
+}
+
+@keyframes mymove
+{
+0%   {top:0px; left:0px; background:red;}
+25%  {top:0px; left:100px; background:blue;}
+50%  {top:100px; left:100px; background:yellow;}
+75%  {top:100px; left:0px; background:green;}
+100% {top:0px; left:0px; background:red;}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+0%   {top:0px; left:0px; background:red;}
+25%  {top:0px; left:200px; background:blue;}
+50%  {top:200px; left:200px; background:yellow;}
+75%  {top:200px; left:0px; background:green;}
+100% {top:0px; left:0px; background:red;}
+}
+</style>
+</head>
+<body>
+
+<p><strong>Note:</strong> The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</p>
+
+<div></div>
+
+</body>
+</html>
