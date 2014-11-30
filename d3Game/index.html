@@ -1,5 +1,39 @@
 
 <head>
+<style>
+.above-game:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.game-intro {
+  float: left;
+  line-height: 42px;
+  margin-bottom: 0; }
+
+.restart-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  float: right; }
+
+.game-explanation {
+  margin-top: 50px; }
+
+.sharing {
+  margin-top: 20px;
+  text-align: center; }
+  .sharing > iframe, .sharing > span, .sharing > form {
+    display: inline-block;
+    vertical-align: middle; }</style>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./home.js" ></script>
@@ -24,11 +58,15 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-like" data-href="http://rishabhsixfeet.github.io/d3Game/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 <div class="fb-share-button" data-href="http://rishabhsixfeet.github.io/d3Game/" data-layout="button_count"></div>
-
-<BR><br>"press left and right arrow key to control the wheel, try to match the color of incoming dots." 
+<div class="above-game">
+      <p class="game-intro">try to match the color of  <strong>incoming dots.</strong></p>
+      
+    </div>
+<BR><br>
+<p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to control the wheel,if you hit <strong>a wrong colour</strong>on the wheel that colour darkens and starts filling  if you hit the color which is  completely filled/darkened you <strong>loose<strong>  
+    </p> 
 Good luck :) <br>
 
 "author: Rishabh Roy"
-<div align="right" class="fb-comments" data-href="http://rishabhsixfeet.github.io/d3Game/" data-numposts="8" data-colorscheme="light"></div>
-
 </body>
