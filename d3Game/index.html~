@@ -22,7 +22,7 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="fb-share-button" data-href="http://rishabhsixfeet.github.io/d3Game/" data-layout="button_count"></div><br>
 This is my first  game implemeneted by d3.js 
 <BR><br>"press left and right arrow key to control the wheel, try to match the color of incoming dots." 
 Good luck :) 
